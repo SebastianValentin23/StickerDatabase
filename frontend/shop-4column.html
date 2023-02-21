@@ -22,7 +22,7 @@
         =======================================-->
 
         <!-- WEBPAGE TITLE -->
-        <title>Shop 4 Column - Greeny</title>
+        <title>Student Sticker Shop</title>
 
         <!--=====================================
                     CSS LINK PART START
@@ -68,9 +68,9 @@
                         <a href="index.html"><img src="static/images/logo.png" alt="logo"></a>
                         <button class="header-src"><i class="fas fa-search"></i></button>
                     </div>
-
+					
                     <a href="index.html" class="header-logo">
-                        <img src="static/images/logo.png" alt="logo">
+                        <img src="../images/logo.png" alt="logo">
                     </a>
 
                     {% if 'customer' in session %}
@@ -86,7 +86,7 @@
                     <ul class="dropdown">
                     <a class="navbar-link " href="{{url_for('enterpage')}}">Login</a>
                     </ul>
-                    {% endif %}
+					{% endif %}
 
                     <form class="header-form">
                         <input type="text" placeholder="Search anything...">
@@ -94,11 +94,10 @@
                     </form>
 
                     <div class="header-widget-group">
-
                         <button class="header-widget header-cart" title="Cartlist">
                             <i class="fas fa-shopping-basket"></i>
                             <sup>
-                            {{amount}}</sup>
+                            <!--{{amount}}-->3</sup>
 
                             <span>total price<small>${{total}}0</small></span>
                         </button>
