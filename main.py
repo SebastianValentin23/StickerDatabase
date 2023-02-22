@@ -10,6 +10,10 @@ from frontend_controller.shopController import *
 app = Flask(__name__, template_folder='frontend/')
 app.secret_key = 'akeythatissecret'
 
+# In this template, you will usually find functions with comments tying them to a specific controller
+# main.py accesses the frontend folders
+# Every controller accesses its relevant model and will send the information back to this Flask app
+
 
 # Redirects us here if no url is given
 @app.route("/", defaults={'message': None})

@@ -1,9 +1,14 @@
 from flask import Flask, render_template, redirect, request, session, url_for
 from backend_controller.loginController import *
+from backend_controller.ordersController import ordersController, getorder, getorderproducts
 from backend_controller.productsController import *
 from backend_controller.accountsController import *
 from backend_controller.reportsController import getDatedReport, getStockReport
 from backend_controller.profileController import *
+
+# In this template, you will usually find functions with comments tying them to a specific controller
+# main.py accesses the frontend folders
+# Every controller accesses its relevant model and will send the information back to this Flask app
 
 app = Flask(__name__, template_folder='backend/')
 app.secret_key = 'akeythatissecret'
@@ -31,11 +36,6 @@ def login():
     # Always advisable to name your frontend and backend sessions differently to not cause errors via lingering sessions
     return logincontroller(email=email, password=password)
 
-
-@app.route("/register", methods=['POST'])
-def register():
-    # FOR STUDENTS TO IMPLEMENT
-    return
 
 
 @app.route("/profile")
@@ -108,6 +108,24 @@ def editaccount(acc):
     # Fetch account given via url and then enter the edit page for that account
     account = getaccount(acc)
     return render_template("single_account.html", acc=account)
+
+
+@app.route("/orders")
+def orders():
+    # Fetches all the orders found in the 'database' to bring to orders page
+    all_orders = ordersController()  # ->connects to ordersModel
+    return render_template("orders.html", orders=all_orders)
+
+
+@app.route('/editorder/<order>')
+def editorder(order):
+    # Receive from orders page an order via its id -> order
+    # Fetch the products in that order
+    orderProducts = getorderproducts(order)
+    # Fetch the order itself. Overwrite order as the ID alone is no longer needed
+    order = getorder(order)
+    # Go to separate page for that order
+    return render_template('order.html', products=orderProducts, order=order)
 
 
 @app.route("/reports")
