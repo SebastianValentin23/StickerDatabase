@@ -128,7 +128,7 @@
                     {% for key, item in session['cart'].items() %}
                 <li class="cart-item">
                     <div class="cart-media">
-                        <a href="#"><img src="images/product/05.jpg" alt="product"></a>
+                        <a href="#"><img src="/static/images/naruto_sticker.png" alt="product"></a>
                         <form action="{{url_for('delete', id=key)}}">
                         <button class="cart-delete"><i class="far fa-trash-alt"></i></button>
                         </form>
@@ -327,7 +327,7 @@
                                     <div class="product-media">
 
                                         <a class="product-image" href="static/images/product-images/{{product[7]}}">
-                                            <img src="static/images/product-images/{{product[7]}}" alt="product">
+                                            <img src="/static/images/bad_corazon_sticker.jpg" alt="product">
                                         </a>
                                         <div class="product-widget">
                                             <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal" data-bs-target="#product-view-{{product[0]}}"></a>
