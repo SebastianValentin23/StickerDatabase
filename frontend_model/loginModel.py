@@ -4,7 +4,7 @@ from flask import session
 # Simulating our database
 thisDict = {
     "email": "javier.quinones3@upr.edu",
-    "password": "pass1234",
+    "password": "1",
     "user": "Javier"
 }
 
