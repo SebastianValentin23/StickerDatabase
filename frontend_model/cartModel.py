@@ -10,11 +10,11 @@ def MagerDicts(dict1, dict2):
 
 
 # Cart items simulated
-dictitems1 = {'1': {'name': "Tello Drone", 'price': 89.00, 'quantity': 2, 'total_price': 178.00,
-                  'stock': 15, 'brand': "DJI", 'wifi': "Yes", 'videores': "480p", 'desc': "Tello Drone description",
+dictitems1 = {'1': {'name': "Naruto Shippuden", 'price': 3.99, 'quantity': 2, 'total_price': 7.98,
+                  'stock': 15, 'brand': "DJI", 'wifi': "Yes", 'videores': "480p", 'desc': "Naruto Sticker Descripcion",
                   'image': "dji_tello.jpg", 'cost': 89.00}}
-dictitems2 = {'3': {'name': "F11 Pro", 'price': 399.00, 'quantity': 1, 'total_price': 399.00,
-                  'stock': 10, 'brand': "Ruko", 'wifi': "Yes", 'videores': "4k", 'desc': "F11 Pro description",
+dictitems2 = {'3': {'name': "Album Bad Bunny", 'price': 5.99, 'quantity': 1, 'total_price': 5.99,
+                  'stock': 10, 'brand': "Ruko", 'wifi': "Yes", 'videores': "4k", 'desc': "Un Verano sin ti Descripcion",
                   'image': "ruko_f11_pro.jpg", 'cost': 350.00}}
 
 def getCartModel():
