@@ -19,6 +19,9 @@ dictitems2 = {'2': {'name': "Album Bad Bunny", 'price': 5.99, 'quantity': 1, 'to
 
 def getCartModel():
     # Checking if cart is in session or not and adding the dictionaries to it
+    # Create an array with the products able to add
+    #session['cartitems'] = MagerDicts(dictitems1, dictitems2)
+
     return
 
 
@@ -26,16 +29,13 @@ def addCartModel(ID):
     # make changes to cart here
     # not in use at the moment
     
-    if 'cart' in session:
-        session['cart'] = MagerDicts(session['cart'], dictitems1)
-    else:
-        session['cart'] = dictitems1
+    #Add ID element from array to session['cart']    
+    session['cart'] = dictitems1
     
-    
-    if 'cart' in session:
-        session['cart'] = MagerDicts(session['cart'], dictitems2)
-    else:
-        session['cart'] = dictitems2
+#    if 'cart' in session:
+#        session['cart'] = MagerDicts(session['cart'], session['cartitems'][ID])
+#    else:
+#        session['cart'] = session['cartitems'][ID]
     
     return
 
