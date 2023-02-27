@@ -128,8 +128,8 @@
                     {% for key, item in session['cart'].items() %}
                 <li class="cart-item">
                     <div class="cart-media">
-                        <a href="#"><img src="/static/images/naruto_sticker.png" alt="product"></a>
-                        <form action="{{url_for('delete', id=key)}}">
+                        <a href="#"><img src="/static/images/bad_corazon_sticker.jpg" alt="product"></a>
+                        <form action="{{url_for('delete', ID = key)}}">
                         <button class="cart-delete"><i class="far fa-trash-alt"></i></button>
                         </form>
                     </div>
@@ -345,7 +345,7 @@
                                             <span>add</span>
                                         </button>
                                         <div class="product-action">
-                                            <form action="{{url_for('addcart')}}" method="post">
+                                            <form action="{{url_for('addcart', ID=product[0])}}" method="post">
                                             <input style="width: 50%" class="action-input" title="Quantity Number" type="number" id="quantity" name="quantity" value="1">
                                                <input type="hidden" id="p_id" name="p_id" value="{{product[0]}}">
                                                <input type="hidden" id="name" name="name" value="{{product[1]}}">
