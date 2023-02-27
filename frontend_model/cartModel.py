@@ -43,7 +43,7 @@ def addCartModel(ID):
 def deleteCartItemModel(ID):
     # delete item from cart
     # not in use at the moment
-    del session['cart'][ID]
+    del session['cart']
     
     
     return
