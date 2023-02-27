@@ -128,8 +128,8 @@
                     {% for key, item in session['cart'].items() %}
                 <li class="cart-item">
                     <div class="cart-media">
-                        <a href="#"><img src="/static/images/bad_corazon_sticker.jpg" alt="product"></a>
-                        <form action="{{url_for('delete', ID = key)}}">
+                        <a href="#"><img src="/static/images/naruto_sticker.png" alt="product"></a>
+                        <form action="{{url_for('delete', id=key)}}">
                         <button class="cart-delete"><i class="far fa-trash-alt"></i></button>
                         </form>
                     </div>
@@ -207,7 +207,7 @@
 
 
                         <div class="shop-widget">
-                            <h6 class="shop-widget-title">Filter by Brand</h6>
+                            <h6 class="shop-widget-title">Filter by Type</h6>
                             <form>
                                 <ul class="shop-widget-list">
 
@@ -224,7 +224,7 @@
                          </ul>
                                 <button class="shop-widget-btn">
                                     <i class="fas fa-search"></i>
-                                    <span>Search by brands</span>
+                                    <span>Search by Type</span>
                                 </button>
                             </form>
                         </div>
@@ -255,7 +255,7 @@
 
 
                         <div class="shop-widget">
-                            <h6 class="shop-widget-title">Filter by Video Resolution</h6>
+                            <h6 class="shop-widget-title">Filter by Size</h6>
                             <form action="{{url_for('filter')}}" method="post">
                                 <ul class="shop-widget-list">
 
@@ -272,14 +272,14 @@
                          </ul>
                                 <button class="shop-widget-btn">
                                     <i class="fas fa-search"></i>
-                                    <span>Search by Resolution</span>
+                                    <span>Search by Size</span>
                                 </button>
                             </form>
                         </div>
 
 
                         <div class="shop-widget">
-                            <h6 class="shop-widget-title">Filter by Wi-Fi Availability</h6>
+                            <h6 class="shop-widget-title">Filter If Water Proof</h6>
                             <form>
                                 <ul class="shop-widget-list">
 
@@ -296,7 +296,7 @@
                          </ul>
                                 <button class="shop-widget-btn">
                                     <i class="fas fa-search"></i>
-                                    <span>Search by Wi-Fi</span>
+                                    <span>Search if Water Proof</span>
                                 </button>
                             </form>
                         </div>
@@ -345,7 +345,7 @@
                                             <span>add</span>
                                         </button>
                                         <div class="product-action">
-                                            <form action="{{url_for('addcart', ID=product[0])}}" method="post">
+                                            <form action="{{url_for('addcart')}}" method="post">
                                             <input style="width: 50%" class="action-input" title="Quantity Number" type="number" id="quantity" name="quantity" value="1">
                                                <input type="hidden" id="p_id" name="p_id" value="{{product[0]}}">
                                                <input type="hidden" id="name" name="name" value="{{product[1]}}">
