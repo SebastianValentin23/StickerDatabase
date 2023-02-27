@@ -136,18 +136,18 @@ def orders():
     return render_template("orderlist.html", order1=order1, products1=products1, order2=order2, products2=products2)
 
 
-@app.route("/addcart", methods=["POST"])
-def addcart():
+@app.route("/addcart/<ID>", methods=["POST"])
+def addcart(ID):
     # > cartController. For purposes of this phase, the function doesn't work
-    addCartController()
+    addCartController(ID)
     # request.referrer means you will be redirected to the current page you were in
     return redirect(request.referrer)
 
 
-@app.route("/delete")
-def delete():
+@app.route("/delete/<ID>")
+def delete(ID):
     # > cartController. For purposes of this phase, the function doesn't work
-    deleteCartItem()
+    deleteCartItem(ID)
     return redirect(request.referrer)
 
 

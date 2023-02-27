@@ -5,10 +5,10 @@ def getCart():
     return getCartModel()
 
 
-def addCartController():
-    return addCartModel()
+def addCartController(ID):
+    return addCartModel(ID)
 
 
-def deleteCartItem():
-    return deleteCartItemModel()
+def deleteCartItem(ID):
+    return deleteCartItemModel(ID)
 
