@@ -1,23 +1,18 @@
 # Orders simulation for the reports that specify date
-dictProd1 = {1: {'name': 'Tello Drone', 'brand': 'DJI', 'date': '2023-01-01', 'price': '89.00',
-                 'quantity': 2, 'total_price': 178.00}}
-dictProd2 = {2: {'name': 'F11 Pro', 'brand': 'Ruko', 'date': '2023-01-04', 'price': '399.00',
-                 'quantity': 1, 'total_price': 399.00}}
-dictProd3 = {3: {'name': 'F11 Pro', 'brand': 'Ruko', 'date': '2023-12-5', 'price': '399.00',
-                 'quantity': 3, 'total_price': 1197.00}}
-dictProd4 = {4: {'name': 'Bebop 2', 'brand': 'Parrot', 'date': '2023-04-12', 'price': '270.00',
-                 'quantity': 1, 'total_price': 270.00}}
-dictProd5 = {5: {'name': 'Premium X Star', 'brand': 'Autel Robotics', 'date': '2023-01-01', 'price': '1,399.00',
-                 'quantity': 2, 'total_price': 2798.00}}
+dictProd1 = {1: {'name': 'Bad Bunny Album', 'brand': 'White', 'date': '2023-01-01', 'price': '5.00', 'quantity': 2, 'total_price': 10.00}}
+dictProd2 = {2: {'name': 'Naruto Shippuden', 'brand': 'Orange', 'date': '2023-01-04', 'price': '15.00', 'quantity': 1, 'total_price': 15.00}}
+dictProd3 = {3: {'name': 'Chopper One Piece', 'brand': 'Red', 'date': '2023-12-5', 'price': '10.00', 'quantity': 3, 'total_price': 30.00}}
+dictProd4 = {4: {'name': 'Bugatti Logo', 'brand': 'Red', 'date': '2023-04-12', 'price': '5.00', 'quantity': 1, 'total_price': 5.00}}
+dictProd5 = {5: {'name': 'Beach Sunset', 'brand': 'Red', 'date': '2023-01-01', 'price': '15.00', 'quantity': 2, 'total_price': 30.00}}
 
 
 # Orders simulation for the inventory/stock report
-product1 = {1: {'name': "Tello Drone", 'brand': 'DJI', 'quantity': 15}}
-product2 = {2: {'name': "F11 Pro", 'brand': 'Ruko', 'quantity': 4}}
-product3 = {3: {'name': "Bebop 2", 'brand': 'Parrot', 'quantity': 13}}
-product4 = {4: {'name': "Premium X Star", 'brand': 'Autel Robotics', 'quantity': 25}}
-product5 = {5: {'name': "Evo Quadcopter II", 'brand': 'Autel Robotics', 'quantity': 2}}
-product6 = {6: {'name': "Mini 3 Pro", 'brand': 'DJI', 'quantity': 65}}
+product1 = {1: {'name': "Bad Bunny Album", 'brand': 'White', 'quantity': 15}}
+product2 = {2: {'name': "Naruto Shippuden", 'brand': 'Orange', 'quantity': 4}}
+product3 = {3: {'name': "Chopper One Piece", 'brand': 'Red', 'quantity': 13}}
+product4 = {4: {'name': "Bugatti Logo", 'brand': 'Red', 'quantity': 25}}
+product5 = {5: {'name': "Beach Sunset", 'brand': 'Red', 'quantity': 2}}
+product6 = {6: {'name': "Bad Bunny Album", 'brand': 'White', 'quantity': 65}}
 
 
 def MagerDicts(dict1, dict2):

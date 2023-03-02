@@ -9,7 +9,7 @@ orderDict1 = {"1": {
     "arrival_date": "01/20/23",
     "address_line_1": "Vista Azulin Calle 11 L13",
     "address_line_2": "Arecibor Puerto Ricor, 00614",
-    "total": 1197.00,
+    "total": 30.00,
     "payment_method": "Mastercard",
     'status': 'delivered'
 }}
@@ -23,7 +23,7 @@ orderDict2 = {'2': {
     "arrival_date": "01/20/23",
     "address_line_1": "Vista Azulin Calle 11 L13",
     "address_line_2": "Arecibor Puerto Ricor, 00614",
-    "total": 1197.00,
+    "total": 30.00,
     "payment_method": "Mastercard",
     'status': 'shipped'
 
@@ -38,7 +38,7 @@ orderDict3 = {'3': {
     "arrival_date": "01/20/23",
     "address_line_1": "Vista Azulin Calle 11 L13",
     "address_line_2": "Arecibor Puerto Ricor, 00614",
-    "total": 1197.00,
+    "total": 30.00,
     "payment_method": "Mastercard",
     'status': 'processed'
 }}
@@ -52,7 +52,7 @@ orderDict4 = {'4': {
     "arrival_date": "01/20/23",
     "address_line_1": "Vista Azulin Calle 11 L13",
     "address_line_2": "Arecibor Puerto Ricor, 00614",
-    "total": 1197.00,
+    "total": 30.00,
     "payment_method": "Mastercard",
     'status': 'cancelled'
 }}
@@ -62,62 +62,62 @@ orderDict4 = {'4': {
 # PRODUCTS
 # ------------------------------------------------------------
 productDict1 = {"1": {
-    "image": 'ruko_f11_pro.jpg',
-    "name": 'F11 Pro',
-    "brand": 'Ruko',
-    "price": 399.00,
+    "image": 'bad_corazon_sticker.jpg',
+    "name": 'Bad Bunny Album',
+    "brand": 'White',
+    "price": 5.00,
     "quantity": 1,
-    "total_price": 399.00,
+    "total_price": 5.00,
     "order_id": '1'
 }}
 
 productDict2 = {"2": {
-    "image": 'dji_tello.jpg',
-    "name": 'Tello Drone',
-    "brand": 'DJI',
-    "price": 89.00,
+    "image": 'naruto_sticker.png',
+    "name": 'Naruto Shippuden',
+    "brand": 'Red',
+    "price": 15.00,
     "quantity": 2,
-    "total_price": 178.00,
+    "total_price": 30.00,
     "order_id": '1'
 }}
 
 productDict3 = {"3": {
-    "image": 'dji_tello.jpg',
-    "name": 'Tello Drone',
-    "brand": 'DJI',
-    "price": 89.00,
+    "image": 'choppersticker.png',
+    "name": 'Chopper One Piece',
+    "brand": 'Red',
+    "price": 10.00,
     "quantity": 2,
-    "total_price": 178.00,
+    "total_price": 20.00,
     "order_id": '3'
 }}
 
 productDict4 = {"4": {
-    "image": 'dji_tello.jpg',
-    "name": 'Tello Drone',
-    "brand": 'DJI',
-    "price": 89.00,
+    "image": 'bad_corazon_sticker.jpg',
+    "name": 'Bad Bunny Album',
+    "brand": 'White',
+    "price": 5.00,
     "quantity": 2,
-    "total_price": 178.00,
+    "total_price": 10.00,
     "order_id": '2'
 }}
 
 productDict5 = {"5": {
-    "image": 'ruko_f11_pro.jpg',
-    "name": 'F11 Pro',
-    "brand": 'Ruko',
-    "price": 399.00,
+    "image": 'bugattisticker.png',
+    "name": 'Bugatti Logo',
+    "brand": 'Red',
+    "price": 5.00,
     "quantity": 1,
-    "total_price": 399.00,
+    "total_price": 5.00,
     "order_id": '4'
 }}
 
 productDict6 = {"6": {
-    "image": 'ruko_f11_pro.jpg',
-    "name": 'F11 Pro',
-    "brand": 'Ruko',
-    "price": 399.00,
+    "image": 'BeachSunsetSticker.png',
+    "name": 'Beach Sunset',
+    "brand": 'Red',
+    "price": 15.00,
     "quantity": 1,
-    "total_price": 399.00,
+    "total_price": 15.00,
     "order_id": '2'
 }}
 
