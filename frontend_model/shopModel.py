@@ -14,6 +14,12 @@ productList = [['1', "Bad Bunny Album", 'Solid', 'desc here', 'Yes', 'Small', 'W
 def getProductsModel():
     return productList
 
+def sort_productlistAscending(productList):
+    productList = sorted(productList, key=lambda product: product[10])
+    return productList
+
+def sort_productlistDescending(productList):
+    return sorted(productList, key=lambda product: product[10])        
 
 def getBrandsModel():
     # Simulating grabbing these filters via SQL from the database
