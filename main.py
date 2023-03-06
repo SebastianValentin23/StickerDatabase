@@ -74,7 +74,12 @@ def registerinfo():
 def shop():
     # This is the shop's Flask portion
     # First we receive the list of products by accessing getProducts() from shopController
+    
     products = getProducts()
+
+    #Testing to see if the sorting works, [IT DOES]
+    #products = getProductAscending()
+    #products = getProductDescending()
 
     # Then we create the shopping cart by accessing getCart in shopController
     getCart()
