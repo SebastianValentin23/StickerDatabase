@@ -12,10 +12,10 @@ def MagerDicts(dict1, dict2):
 # Cart items simulated
 dictitems1 = {'1': {'name': "Naruto Shippuden", 'price': 3.99, 'quantity': 2, 'total_price': 7.98,
                   'stock': 15, 'brand': "DJI", 'wifi': "Yes", 'videores': "480p", 'desc': "Naruto Sticker Descripcion",
-                  'image': "dji_tello.jpg", 'cost': 89.00}}
+                  'image': "naruto_sticker.png", 'cost': 89.00}}
 dictitems2 = {'2': {'name': "Album Bad Bunny", 'price': 5.99, 'quantity': 1, 'total_price': 5.99,
                   'stock': 10, 'brand': "Ruko", 'wifi': "Yes", 'videores': "4k", 'desc': "Un Verano sin ti Descripcion",
-                  'image': "ruko_f11_pro.jpg", 'cost': 350.00}}
+                  'image': "bad_corazon_sticker.jpg", 'cost': 350.00}}
 
 def getCartModel():
     # Checking if cart is in session or not and adding the dictionaries to it

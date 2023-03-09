@@ -17,21 +17,21 @@ orderDict = {
 }
 
 productDict1 = {"1":{
-    "image": 'ruko_f11_pro.jpg',
-    "name": 'F11 Pro',
-    "brand": 'Ruko',
-    "price": 399.00,
-    "quantity": 1,
-    "total_price": 399.00
+    "image": 'naruto_sticker.png',
+    "name": 'Naruto Shippuden',
+    "brand": 'Naruto',
+    "price": 5.99,
+    "quantity": 2,
+    "total_price": 11.98
 }}
 
 productDict2 = {"2":{
-    "image": 'dji_tello.jpg',
-    "name": 'Tello Drone',
-    "brand": 'DJI',
-    "price": 89.00,
-    "quantity": 2,
-    "total_price": 178.00
+    "image": 'bad_corazon_sticker.jpg',
+    "name": 'Un Verano Sin Ti',
+    "brand": 'bad_bunny',
+    "price": 25.80,
+    "quantity": 1,
+    "total_price": 25.80
 }}
 
 products = productDict1
