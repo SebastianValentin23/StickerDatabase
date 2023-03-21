@@ -14,12 +14,12 @@ dictUser2 = {2: {'c_first_name': "Reina", 'c_last_name': "López",
                  'c_zipcode': '00610', 'c_card_name': 'Reina Lopez', 'c_card_type': 'Discover', 'c_exp_date': '01-01-22',
                  'c_card_num': 1234123412341234}}
 
-dictUser3 = {3: {'c_first_name': "Javier", 'c_last_name': "Quiñones",
-                'c_email': "javier.quinones3@upr.edu", 'c_password': "pass1234",
-                'c_phone_number': 7871231234, 'c_status': 'active',
-                'c_address_line_1': "Vista Azulin", 'c_address_line_2': "Calle L11 L13", 'c_city': "Arecibor", 'c_state': "Puerto Ricor",
-                 'c_zipcode': '00612', 'c_card_name': 'Javier Quiñones', 'c_card_type': 'Mastercard',
-                 'c_exp_date': '01-01-23', 'c_card_num': 1234123412341234}}
+dictUser3 = {3: {'c_first_name': "John", 'c_last_name': "Doe",
+                'c_email': "john.doe@upr.edu", 'c_password': "1",
+                'c_phone_number': 7876749512, 'c_status': 'active',
+                'c_address_line_1': "Villa Linda Ave Palo Blanco", 'c_address_line_2': "Ave Interamericana #343", 'c_city': "Aguadilla", 'c_state': "Puerto Rico",
+                 'c_zipcode': '00603', 'c_card_name': 'Wells Fargo Active', 'c_card_type': 'Visa',
+                 'c_exp_date': '02-05-25', 'c_card_num': 7648167416759824}}
 
 # A useful function for uniting dictionaries:
 
