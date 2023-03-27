@@ -27,3 +27,20 @@ def getVideoRes():
 
 def getWifi():
     return getWifiModel()
+#=========================================================================================================================================================================================================================================
+#new controller
+def getNewProducts():
+    newproducts = getNewProductsModel()
+    return newproducts
+
+def getSize():
+    return getSizeModel()
+
+def getWaterProof():
+    return getWaterProofModel()
+
+def getMaterial():
+    return getMaterialModel()
+
+def getPrimaryColor():
+    return getPrimaryColorModel()
