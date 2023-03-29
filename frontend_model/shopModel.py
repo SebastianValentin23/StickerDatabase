@@ -22,11 +22,11 @@ def getNewProductsModel():
     return newproductList
 
 def sort_newproductlistAscending(awa):
-    awa = sorted(newproductList, key=lambda product: product[6])
+    awa = sorted(newproductList, key=lambda product: int(product[6]))
     return awa
 
 def sort_newproductlistDescending(ewe):
-   ewe = sorted(newproductList, key=lambda product: product[6],reverse = True)        
+   ewe = sorted(newproductList, key=lambda product: int(product[6]),reverse = True)        
    return ewe
 
 def getSizeModel():
